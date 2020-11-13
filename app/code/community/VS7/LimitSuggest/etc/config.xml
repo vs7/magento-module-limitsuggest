@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <VS7_LimitSuggest>
+            <version>0.1.0</version>
+        </VS7_LimitSuggest>
+    </modules>
+    <global>
+        <models>
+            <catalogsearch>
+                <rewrite>
+                    <query>VS7_LimitSuggest_Model_Query</query>
+                </rewrite>
+            </catalogsearch>
+        </models>
+    </global>
+</config>
